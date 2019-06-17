@@ -10,9 +10,11 @@ public enum OtherProperties implements PropertyEnum {
 
     API_ENABLED("api_enabled", Boolean.class, "false"),
 
-    API_TOKEN("api_token", String.class, ""),
+    API_ACCESS_KEY("api_access_key", String.class, ""),
 
-    STATISTICS_CODE("statistics_code", String.class, ""),
+    CUSTOM_HEAD("blog_custom_head",String.class,""),
+
+    STATISTICS_CODE("blog_statistics_code", String.class, ""),
 
     /**
      * 是否禁止爬虫
